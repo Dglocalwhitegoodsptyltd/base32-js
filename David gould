@@ -1,0 +1,26 @@
+var base32=require('base32') // simple api
+var encoded=base32.encode ('some data to encode')
+var decoded=base32.decode(encoded)
+
+//Streaming api
+this.encoder=new Base32.encoder()
+this.data Callback=function (chunk) [
+this.emit(this.finish()) //
+flush any remaining bits
+}
+// easy sha1 hash
+var hash= base32.sha1
+(some_data_to_hash) // DONE
+
+(to install system wide,use npm install -g base32):
+base32-h
+#> Usage: base32[input file]
+[-o output_file] [-d|--decode]
+[-s|--sha]
+echo "Hello World" | base32 #>91jprv3f41bpywkccg50
+echo 'axqqeb10d5u20wk5c5p6ry90exqq4uvk44' | base32-d
+#>Wow,it really works!
+base32-s test/*
+#>ky2t1raumjn9cghne773petngx3zz3q7 test/base32=test coffee
+#6b4bkjaveddmg5jh7hnyw132yht20gbe test/compare.coffee
+
